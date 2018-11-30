@@ -42,13 +42,20 @@ h4, .h4{
 	font-family: 'Cutive Mono', monospace;
 	font-size: 1.15rem;
 }
+h5{
+	font-family: 'Fjalla One', sans-serif;
+	font-size: 2rem;
+	font-weight: 100;
+}
 
 p{
 	font-family: 'Roboto', sans-serif;
 	font-size: 1.1rem;
-	margin-top:1.5rem;
 	margin-bottom:.5rem;
 	line-height: 2;
+}
+a.hover, a{
+	text-decoration:none!important; 
 }
 nav{
 	font-family: 'Fjalla One', sans-serif;
@@ -139,6 +146,9 @@ nav{
 .marginAuto{
 	margin:auto;
 }
+.mrg-t-15{
+	margin-top:1.5rem;
+	}
 /*vertical align*/
 .a-v-padre{
     content: '';
@@ -170,6 +180,9 @@ nav{
 .alin-dch{
 	text-align: right;
 }
+.alin-izq{
+	text-align: left;
+}
 
 /*z-index*/
 .zIndex10{
@@ -197,7 +210,7 @@ nav{
 	background-color: #E57F95;
 }
 .bk-gris{
-	background-color:#7d7780;
+	background-color:#d6d5d6;
 
 }
 .bk-transparente{
@@ -242,9 +255,16 @@ nav{
 .tp-grosor600{
 	font-weight: 600;
 }
+.tp-size-15{
+	font-size:1.5rem;
+}
 .a-beige, .a-beige:hover, .a-beige:visited{
 	color: #ffffde;
 }
+.a-negro, .a-negro:hover, .a-negro:visited{
+	color: #000;
+}
+
 
 /*imágenes hover*/
 .imgAnim{
@@ -263,38 +283,6 @@ nav{
 .trabajo:hover .caption{
 opacity:1;
 }
-/*.menuAnim{
-	transition: .5s;
-}*/
-/*.caption-style-1{
-
-		
-	}
-	.caption-style-1 .trabajo{
-		float: left;
-		padding: 0px;
-		position: relative;
-		overflow: hidden;
-	}
-.hover{
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-}
-.opacity0{
-	opacity:0;
-}
-.colorHover{
-	background-color: red;
-	height: 100%;
-    width: 100%;
-    top:0;
-    bottom:0;
-
-}*/
 .caption{
 	z-index:10;
 	cursor: pointer;
@@ -347,10 +335,9 @@ opacity:1;
 	display: table;
 	height:50%;
 	}*/
-	.ancho50{
+	.ancho70, .ancho50,.ancho30{
 		width:100%;
 	}
-
 
 
 }

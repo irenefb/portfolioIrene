@@ -170,7 +170,9 @@ window.onload = function(){
 				for(var i=0; i<a.enlacesMenu.length; i++){
 					a.enlacesMenu[i].classList.remove("tp-rosa");
 				}
-			}else {
+			}else if( a.anchoNavegador<768){
+				a.moverMenu.classList.add("fixed-top");
+			}else if(a.posicionScroll<a.posicionB && a.anchoNavegador>768){
 				a.moverMenu.classList.remove("ancho50");
 				a.moverMenu.classList.add("ancho100");
 				a.moverMenu.classList.remove("fixed-top");
@@ -196,7 +198,7 @@ window.onload = function(){
 			}else {
 
 			};
-		
+
 
 		}
 
