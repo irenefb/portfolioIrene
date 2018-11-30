@@ -136,17 +136,17 @@ window.onload = function(){
 			if(q.posicionScroll>q.posicionW3 && q.anchoNavegador>768){
 				q.tituloW3.style.position="fixed";
 				q.tituloW3.style.top="0px";
-				q.contenidoW3.style.left="30%";
+				q.contenidoW3.style.left="40%";
 
 			
 				if(q.posicionScroll>q.longitudContenidoW3){
 					q.tituloW3.style.position="absolute";
 					q.tituloW3.style.top=q.topContenidoW3+"px";
-					q.contenidoW3.style.left="30%";
+					q.contenidoW3.style.left="40%";
 				}
 			}else if(q.posicionScroll<q.posicionW3 && q.anchoNavegador>768){
 				q.tituloW3.style.position="absolute";
-				q.contenidoW3.style.left="30%";
+				q.contenidoW3.style.left="40%";
 			}else if(q.anchoNavegador<768){
 				q.tituloW3.style.position="relative";
 				q.contenidoW3.style.left=0;
