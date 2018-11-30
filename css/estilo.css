@@ -111,11 +111,11 @@ nav{
 .ancho50{
 	width: 50%;
 }
-.ancho30{
-	width: 30%;
+.ancho40{
+	width: 40%;
 }
-.ancho70{
-	width: 70%;
+.ancho60{
+	width: 60%;
 }
 /*paddings*/
 .padd-t-xl{	padding-top:100px !important;}
@@ -171,8 +171,8 @@ nav{
 .left50{
 	left: 50%;
 }
-.left30{
-	left: 30%;
+.left40{
+	left: 40%;
 }
 .alin-centro{
 	text-align: center;

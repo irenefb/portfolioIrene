@@ -98,17 +98,17 @@ window.onload = function(){
 			if(q.posicionScroll>q.posicionW && q.anchoNavegador>768){
 				q.tituloW.style.position="fixed";
 				q.tituloW.style.top="0px";
-				q.contenidoW.style.left="30%";
+				q.contenidoW.style.left="40%";
 
 			
 				if(q.posicionScroll>q.longitudContenidoW){
 					q.tituloW.style.position="absolute";
 					q.tituloW.style.top=q.topContenidoW+"px";
-					q.contenidoW.style.left="30%";
+					q.contenidoW.style.left="40%";
 				}
 			}else if(q.posicionScroll<q.posicionW && q.anchoNavegador>768){
 				q.tituloW.style.position="absolute";
-				q.contenidoW.style.left="30%";
+				q.contenidoW.style.left="40%";
 			}else if(q.anchoNavegador<768){
 				q.tituloW.style.position="relative";
 				q.contenidoW.style.left=0;
@@ -117,17 +117,17 @@ window.onload = function(){
 			if(q.posicionScroll>q.posicionW2 && q.anchoNavegador>768){
 				q.tituloW2.style.position="fixed";
 				q.tituloW2.style.top="0px";
-				q.contenidoW2.style.left="30%";
+				q.contenidoW2.style.left="40%";
 
 			
 				if(q.posicionScroll>q.longitudContenidoW2){
 					q.tituloW2.style.position="absolute";
 					q.tituloW2.style.top=q.topContenidoW2+"px";
-					q.contenidoW2.style.left="30%";
+					q.contenidoW2.style.left="40%";
 				}
 			}else if(q.posicionScroll<q.posicionW2 && q.anchoNavegador>768){
 				q.tituloW2.style.position="absolute";
-				q.contenidoW2.style.left="30%";
+				q.contenidoW2.style.left="40%";
 			}else if(q.anchoNavegador<768){
 				q.tituloW2.style.position="relative";
 				q.contenidoW2.style.left=0;
