@@ -42,6 +42,14 @@ h4, .h4{
 	font-family: 'Cutive Mono', monospace;
 	font-size: 1.15rem;
 }
+.h4Portada{
+	font-family: 'Cutive Mono', monospace;
+	font-size: 0.85rem;
+}
+.h4Medidores{
+	font-family: 'Cutive Mono', monospace;
+	font-size: 1.1rem;
+}
 h5{
 	font-family: 'Fjalla One', sans-serif;
 	font-size: 2rem;
@@ -122,6 +130,7 @@ nav{
 .padd-r-xl{	padding-right:100px !important;}
 .padd-b-xl{	padding-bottom:100px !important;}
 .padd-l-xl{	padding-left:100px !important;}
+.padd-0{padding:0;}
 .padd-t-0{	padding-top:0!important;}
 .padd-r-0{	padding-right:0!important;}
 .padd-b-0{	padding-bottom:0!important;}
@@ -241,8 +250,10 @@ nav{
 .l-beige{
 	stroke:#ffffde;
 }
+.l-berenjena{
+	stroke:#372D3B;
+}
 /* tipografía*/
-
 .tp-blanco{
 	color: #fff;
 }
@@ -257,6 +268,10 @@ nav{
 }
 .tp-size-15{
 	font-size:1.5rem;
+}
+.tp-icoMedidores{
+	font-size:1.5rem;
+	color:#372D3B;
 }
 .a-beige, .a-beige:hover, .a-beige:visited{
 	color: #ffffde;
@@ -335,9 +350,23 @@ opacity:1;
 	display: table;
 	height:50%;
 	}*/
-	.ancho70, .ancho50,.ancho30{
+	.ancho70, .ancho60, .ancho50, .ancho40, .ancho30{
 		width:100%;
 	}
-
+	#titlPortadaWeb.alin-dch{
+		text-align: center;
+	}
+	#titlPortadaWeb.padd-b-12{
+		padding-bottom: 1%;
+	}
+	#titlPortadaWeb.padd-r-1{
+		padding-right: 12%;
+	}
+	#titlPortadaWeb.padd-l-1{
+		padding-left: 12%;
+	}
+	#titlPortadaWeb.padd-b-1{
+		padding-bottom: 16%;
+	}
 
 }

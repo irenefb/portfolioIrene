@@ -150,6 +150,7 @@ window.onload = function(){
 			}else if(q.anchoNavegador<768){
 				q.tituloW3.style.position="relative";
 				q.contenidoW3.style.left=0;
+
 			};
 
 		},

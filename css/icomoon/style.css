@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?1kli3d');
-  src:  url('fonts/icomoon.eot?1kli3d#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?1kli3d') format('truetype'),
-    url('fonts/icomoon.woff?1kli3d') format('woff'),
-    url('fonts/icomoon.svg?1kli3d#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?oxdopm');
+  src:  url('fonts/icomoon.eot?oxdopm#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?oxdopm') format('truetype'),
+    url('fonts/icomoon.woff?oxdopm') format('woff'),
+    url('fonts/icomoon.svg?oxdopm#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,6 +24,42 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-ico_angular:before {
+  content: "\e903";
+}
+.icon-ico_js:before {
+  content: "\e908";
+}
+.icon-ico_css:before {
+  content: "\e907";
+}
+.icon-ico_fusion:before {
+  content: "\e90a";
+}
+.icon-ico_html:before {
+  content: "\e90b";
+}
+.icon-ico_ill:before {
+  content: "\e90e";
+}
+.icon-ico_Id:before {
+  content: "\e90f";
+}
+.icon-ico_jekyll:before {
+  content: "\e910";
+}
+.icon-ico_maya:before {
+  content: "\e913";
+}
+.icon-ico_mongo:before {
+  content: "\e914";
+}
+.icon-ico_wp:before {
+  content: "\e915";
+}
+.icon-ico_ps:before {
+  content: "\e902";
+}
 .icon-mail:before {
   content: "\e901";
 }
